@@ -242,6 +242,18 @@
       "description": "OpenAI's GPT-5 model - next-generation capabilities across tasks with vision"
     },
     {
+      "model_name": "openai/gpt-5-codex",
+      "aliases": ["gpt-5-codex", "gpt5codex"],
+      "context_window": 400000,
+      "max_output_tokens": 128000,
+      "supports_extended_thinking": false,
+      "supports_json_mode": true,
+      "supports_function_calling": true,
+      "supports_images": false,
+      "supports_temperature": false, 
+      "description": "OpenAI's GPT-5 Codex model - next-generation capabilities optimized for software engineering and coding workflows"
+    },
+    {
       "model_name": "llama3.2",
       "aliases": ["local-llama", "local", "llama3.2", "ollama-llama"],
       "context_window": 128000,
@@ -253,17 +265,6 @@
       "max_image_size_mb": 0.0,
       "is_custom": true,
       "description": "Local Llama 3.2 model via custom endpoint (Ollama/vLLM) - 128K context window (text-only)"
-    },
-    {
-      "model_name": "openrouter/sonoma-sky-alpha",
-      "aliases": ["sonoma", "sonoma-sky", "sonoma-alpha", "sonoma-openrouter"],
-      "context_window": 2000000,
-      "max_output_tokens": 128000,
-      "supports_extended_thinking": false,
-      "supports_json_mode": true,
-      "supports_function_calling": false,
-      "supports_images": false,
-      "description": "Sonoma Sky Alpha via OpenRouter with vision - up to 2M context window"
     },
     {
       "model_name": "x-ai/grok-code-fast-1.0",
@@ -286,6 +287,17 @@
       "supports_function_calling": true,
       "supports_images": false,
       "description": "Grok 4 via OpenRouter - versatile model for a wide range of tasks (text-only)"
+    },
+    {
+      "model_name": "x-ai/grok-4-fast",
+      "aliases": ["grok-4-fast", "grok4fast"],
+      "context_window": 2000000,
+      "max_output_tokens": 64000,
+      "supports_extended_thinking": false,
+      "supports_json_mode": true,
+      "supports_function_calling": true,
+      "supports_images": false,
+      "description": "Grok 4 Fast via OpenRouter - multimodal model with SOTA cost-efficiency and a 2M token context window"
     }
   ]
 }
