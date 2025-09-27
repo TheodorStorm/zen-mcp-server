@@ -160,6 +160,7 @@ class OpenRouterModelRegistry:
             # Parse models
             configs = []
             for model_data in data.get("models", []):
+                logging.debug(f"Processing model data: {model_data}")
                 # Create ModelCapabilities directly from JSON data
                 # Handle temperature_constraint conversion
                 temp_constraint_str = model_data.get("temperature_constraint")
