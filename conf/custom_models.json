@@ -64,7 +64,7 @@
     },
     {
       "model_name": "anthropic/claude-sonnet-4",
-      "aliases": ["sonnet", "claude-sonnet", "claude-sonnet-4", "claude-4-sonnet", "claude"],
+      "aliases": ["claude-sonnet-4", "claude-4-sonnet"],
       "context_window": 200000,
       "max_output_tokens": 64000,
       "supports_extended_thinking": false,
@@ -72,7 +72,19 @@
       "supports_function_calling": false,
       "supports_images": true,
       "max_image_size_mb": 5.0,
-      "description": "Claude Sonnet 4.1 - High-performance model with exceptional reasoning and efficiency"
+      "description": "Claude Sonnet 4 - High-performance model with exceptional reasoning and efficiency"
+    },
+    {
+      "model_name": "anthropic/claude-sonnet-4.5",
+      "aliases": ["sonnet", "claude-sonnet", "claude-sonnet-4.5", "claude-4.5-sonnet", "claude"],
+      "context_window": 200000,
+      "max_output_tokens": 64000,
+      "supports_extended_thinking": false,
+      "supports_json_mode": false,
+      "supports_function_calling": false,
+      "supports_images": true,
+      "max_image_size_mb": 5.0,
+      "description": "Claude Sonnet 4.5 - High-performance model with improvements across system design, code security, and specification adherence"
     },
     {
       "model_name": "anthropic/claude-3.5-haiku",
