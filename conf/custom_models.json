@@ -261,7 +261,7 @@
       "supports_extended_thinking": false,
       "supports_json_mode": true,
       "supports_function_calling": true,
-      "supports_images": false,
+      "supports_images": true,
       "supports_temperature": false, 
       "description": "OpenAI's GPT-5 Codex model - next-generation capabilities optimized for software engineering and coding workflows"
     },
@@ -286,7 +286,7 @@
       "supports_extended_thinking": false,
       "supports_json_mode": true,
       "supports_function_calling": true,
-      "supports_images": false,
+      "supports_images": true,
       "description": "Grok Code Fast 1.0 via OpenRouter - optimized for coding tasks (text-only)"
     },
     {
@@ -297,7 +297,7 @@
       "supports_extended_thinking": false,
       "supports_json_mode": true,
       "supports_function_calling": true,
-      "supports_images": false,
+      "supports_images": true,
       "description": "Grok 4 via OpenRouter - versatile model for a wide range of tasks (text-only)"
     },
     {
@@ -308,7 +308,7 @@
       "supports_extended_thinking": false,
       "supports_json_mode": true,
       "supports_function_calling": true,
-      "supports_images": false,
+      "supports_images": true,
       "description": "Grok 4 Fast via OpenRouter - multimodal model with SOTA cost-efficiency and a 2M token context window"
     }
   ]
